@@ -1,0 +1,82 @@
+{
+  "newsletter": {
+    "title": "Daily Tech Digest",
+    "description": "Your curated daily roundup of the latest tech news and insights",
+    "author": "Newsletter Bot",
+    "maxItemsPerFeed": 10,
+    "maxTotalItems": 50,
+    "retentionDays": 30
+  },
+  "feeds": [
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "category": "Tech News",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "Tech News",
+      "enabled": true
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "Tech News",
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "Tech News",
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "Technology",
+      "enabled": true
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "category": "Technology",
+      "enabled": true
+    },
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "category": "Development",
+      "enabled": true
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/feed",
+      "category": "Development",
+      "enabled": true
+    },
+    {
+      "name": "CSS Tricks",
+      "url": "https://css-tricks.com/feed/",
+      "category": "Web Development",
+      "enabled": true
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/feed/",
+      "category": "Web Development",
+      "enabled": true
+    }
+  ],
+  "categories": [
+    "Tech News",
+    "Technology",
+    "Development",
+    "Web Development",
+    "AI & Machine Learning",
+    "Cloud & DevOps",
+    "Security",
+    "Business"
+  ]
+}

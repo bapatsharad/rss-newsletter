@@ -1,0 +1,31 @@
+{
+  "name": "rss-newsletter-generator",
+  "version": "1.0.0",
+  "description": "Enterprise-grade RSS feed aggregator and newsletter generator for GitHub Pages",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "generate": "npm run build && npm run start"
+  },
+  "keywords": [
+    "rss",
+    "newsletter",
+    "github-actions",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.6.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
